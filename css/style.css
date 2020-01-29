@@ -1,0 +1,199 @@
+header{
+	padding-top: 70px;
+	border-bottom: 8px solid #e4e4e4;
+	display: block;
+	background-image: url(../img/homebg.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+}
+.logo{
+	font-family: 'Kaushan Script', cursive;
+
+}
+.logo h1{
+	font-size: 50px;
+	color: #f0f31e;
+}
+.menu{
+	font-family: 'PT Serif', serif;
+}
+.menu ul{
+	 list-style: none;
+}
+.menu ul li{
+	display: inline-block;
+	margin: 15px 27px;
+	color: #ffffff;
+}
+.menu ul li a{
+	text-decoration: none;
+	color: #fff;
+}
+.header-content{	
+	padding-top: 110px;
+}
+.header-content h1{
+	background-color: rgb(0,0,0,0.5);
+	padding: 15px;
+	font-size: 44px;
+	font-weight: 400;
+	text-align: center;
+	color: #e3e3e2;
+}
+.header-content p{
+	padding-top: 30px;
+	color: #fff;
+}
+.header-content span{
+	padding-top: 21px;
+	padding-bottom: 30px;
+	border-bottom: 2px solid #ffffff;
+	display: block;
+	width: 5%;
+}
+.header-content button{
+	margin-bottom: 136px;
+	color: #fff;
+	margin-top: 40px;
+	padding: 15px 90px;
+	background-color: transparent;
+	border: 1px solid white;
+}
+header:before{
+	content: '';
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	background-color: rgb(0,0,0,0.6);
+}
+.white{
+	background-color: #e7e1e1;
+	padding: 50px 0px 0px;
+}
+.white-left{
+
+}
+.white-left h1{
+	
+padding-top: 10px;
+	
+color: #333333;
+	
+line-height: 1;
+	
+font-size: 44px;
+}
+.white-left span{
+	padding-top: 12px;
+	padding-bottom: 25px;
+	border-bottom: 2px solid #161616;
+	display: block;
+	width: 5%;
+}
+.pera{
+	 margin: 50px 0px 0px;
+	 width: 70%;
+}
+.pera p{
+	 color: #6c6464;
+    font-size: 15px;
+}
+.white-right{
+
+}
+.parent{
+	position: relative;
+	top: 61px;
+	right: 228px;
+}
+.parent img{
+	width: 850px;
+}
+.child{
+	position: absolute;
+	top: 18%;
+	left: 69%;
+}
+.child img{
+	width: 392px;
+}
+.gray{
+	background-color: #28282e;
+	padding: 86px 0px 40px;
+}
+.gray-left{
+
+}
+.gray-left h1{
+	padding-top: 10px;
+	color: #ffffff;
+	line-height: 1;
+	font-size: 47px;
+}
+.gray-left span{
+	padding-top: 21px;
+	padding-bottom: 4px;
+	border-bottom: 2px solid #ffffff;
+	display: block;
+	width: 5%;
+}
+.pera-2{
+	 margin: 50px 0px 0px;
+	 width: 60%;
+}
+.pera-2 p{
+	 color: #ffffff;
+	 font-size: 15px;
+}
+.gray-left button{
+	margin-bottom: 50px;
+	color: #fff;
+	margin-top: 40px;
+	padding: 15px 90px;
+	background-color: transparent;
+	border: 1px solid white;
+}
+.gray-right{
+
+padding-top: 75px;
+}
+.gray-right img{
+	
+width: 620px;
+	
+}
+footer{
+	 text-align: center;
+    background-color: #ef4035;
+    padding: 20px 0 20px;
+}
+footer p{
+	color: #fff;
+}
+/* media query */
+
+/* mobile device */
+
+@media (min-width: 320px) and (max-width: 500px){
+	.parent img{
+		width: 250px;
+	}
+
+}
+
+/* small device */
+
+@media (min-width: 501px) and (max-width: 768px){
+	
+}
+
+/*medium device*/
+@media (min-width: 769px) and (max-width: 1200px){
+	
+}
+/*large device*/
+@media (min-width: 1201px){
+	
+}
